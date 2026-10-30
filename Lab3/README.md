@@ -80,8 +80,6 @@ Funkcja potraktuje szerokość geograficzną jako współrzędną x, a długoś�
 
 ## Wnioski
 
-Ćwiczenie pokazało znaczenie kontroli jakości danych przed analizą przestrzenną. W surowym zbiorze znalazły się duplikaty, brakujące współrzędne, błędne wartości pomiarowe i zamienione kolumny lokalizacji. Ich usunięcie lub poprawienie pozwoliło otrzymać 130 wiarygodnych obserwacji oraz poprawną mapę rozmieszczenia czujników. Potwierdzono także, że sama obecność kolumn ze współrzędnymi nie wystarcza do analizy GIS. Należy zbudować geometrię i prawidłowo określić układ współrzędnych. Eksperyment z zamianą współrzędnych wykazał, że nawet niewielki błąd w sposobie ich przypisania może prowadzić do całkowicie innej lokalizacji obiektów.
-
 W ramach laboratorium przeprowadzono analizę danych przestrzennych z wykorzystaniem bibliotek GeoPandas, Shapely i pandas w języku Python.
 
 Na podstawie danych dotyczących stężenia pyłu PM2.5 w Opolu utworzono obiekty przestrzenne oraz przeprowadzono wstępną analizę jakości danych, identyfikując brakujące wartości, duplikaty, błędne pomiary i nieprawidłowo zapisane współrzędne geograficzne.
