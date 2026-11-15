@@ -1,0 +1,10 @@
+# Środowisko Python
+.venv/
+
+# Pliki Jupyter Notebook
+*.ipynb
+.ipynb_checkpoints/
+
+# Pliki tymczasowe Pythona
+__pycache__/
+*.pyc
