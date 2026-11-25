@@ -1,0 +1,8 @@
+streamlit>=1.50
+ultralytics
+rasterio
+plotly
+pandas
+pillow
+numpy
+opencv-python
